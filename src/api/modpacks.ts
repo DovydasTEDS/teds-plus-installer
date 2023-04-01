@@ -2,7 +2,7 @@ import { invoke } from "@tauri-apps/api";
 import { fetch } from "@tauri-apps/api/http";
 import { Modpack } from "./types";
 
-const BASE_URL = "https://cdn.tedps.tk";
+const BASE_URL = "https://cdn.tedps.tk/minecraft/modpacks";
 
 interface getModpackResponse {
     modpacks: Modpack[],
