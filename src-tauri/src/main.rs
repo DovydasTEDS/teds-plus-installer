@@ -24,7 +24,7 @@ use walkdir::WalkDir;
 use crate::mrpack::modrinthpack::ModrinthManifest;
 // use image::io::Reader as ImageReader;
 
-const BASE_URL: &str = "https://raw.githubusercontent.com/DovydasTEDS/files/main/minecraft/modpacks/";
+const BASE_URL: &str = "https://cdn.tedps.tk/minecraft/modpacks/";
 
 fn main() {
   tauri::Builder::default()
