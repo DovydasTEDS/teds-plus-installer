@@ -2,7 +2,7 @@
 - Multi platform support (Linux, Windows, MacOS)
 - Use of mrpack format
 
-[![Build app](https://github.com/twilight-games/modpack-installer/actions/workflows/build.yml/badge.svg)](https://github.com/twilight-games/modpack-installer/actions/workflows/build.yml)
+[![Build app](https://github.com/dovydasteds/teds-plus-installer/actions/workflows/build.yml/badge.svg)](https://github.com/twilight-games/modpack-installer/actions/workflows/build.yml)
 
 ![modpack-installer_gW84mhcolI](https://user-images.githubusercontent.com/35953244/152230478-72eaca95-5cb9-444d-a88a-dcfa4aeb29aa.gif)
 
