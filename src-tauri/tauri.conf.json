@@ -53,7 +53,7 @@
       "http": {
         "all": true,
         "request": true,
-        "scope": ["https://cdn.tedps.tk/**", "https://meta.quiltmc.org/**"]
+        "scope": ["https://cdn.tedps.tk/**", "https://meta.quiltmc.org/**", "https://**"]
       },
       "fs": {
         "readDir": true,
