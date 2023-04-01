@@ -1,10 +1,10 @@
 [package]
-name = "TEDS Plus Installer"
+name = "app"
 version = "0.1.0"
-description = "Install TEDS Plus"
+description = "A Tauri App"
 authors = ["you"]
 license = "GPL-3.0"
-repository = "https://github.com/DovydasTEDS/teds-plus-installer"
+repository = ""
 default-run = "app"
 edition = "2021"
 build = "src/build.rs"

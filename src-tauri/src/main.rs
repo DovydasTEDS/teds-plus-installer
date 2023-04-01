@@ -201,7 +201,7 @@ async fn install_modpack(
   let modpack: Modpack = serde_json::from_value(modpack).expect("Unable to map modpack data");
   let gamepath: &Path = Path::new(&gamepath);
 
-  let modpack_dir: PathBuf = gamepath.join(".vloedje").join(&modpack.id);
+  let modpack_dir: PathBuf = gamepath.join(".teds").join(&modpack.id);
   fs::create_dir_all(&modpack_dir).expect("Unable to create modpack folder");
 
   let pack_cache_dir: &PathBuf = &modpack_dir.join(".pack");
