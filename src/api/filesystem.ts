@@ -1,4 +1,6 @@
+import tauriapi from '@tauri-apps/api';
 import { fs, invoke } from "@tauri-apps/api";
+
 
 export const isDirectory = async (directory: string): Promise<boolean> => {
     try {
