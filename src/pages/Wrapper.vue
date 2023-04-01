@@ -41,7 +41,7 @@ function nextStep() {
                 <AlertBox :error="store.error" v-if="store.error" />
                 <div class="flex items-center justify-center">
                     <img src="../assets/logo.jpg" class="w-24" />
-                    <h1 class="text-white font-semibold ml-8 text-3xl">Modpack Installer</h1>
+                    <h1 class="text-white font-semibold ml-8 text-3xl">TEDS Plus Installer</h1>
                 </div>
 
                 <component :is="steps[store.step]" />
