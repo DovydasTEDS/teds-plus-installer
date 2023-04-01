@@ -1,4 +1,4 @@
-# Modpack installer for SMP
+# TEDS Plus Installer
 - Multi platform support (Linux, Windows, MacOS)
 - Use of mrpack format
 

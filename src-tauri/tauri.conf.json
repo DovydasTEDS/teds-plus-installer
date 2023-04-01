@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "modpack-installer",
+    "productName": "TEDS Plus Installer",
     "version": "0.1.0"
   },
   "build": {
@@ -13,7 +13,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "io.github.twilight-games",
+      "identifier": "tk.tedps.teds-plus-installer",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -53,7 +53,7 @@
       "http": {
         "all": true,
         "request": true,
-        "scope": ["https://modpack.vloedje.nl/**"]
+        "scope": ["https://cdn.tedps.tk/**"]
       },
       "fs": {
         "readDir": true,
@@ -67,7 +67,7 @@
     },
     "windows": [
       {
-        "title": "Modpack Installer",
+        "title": "TEDS Plus Installer",
         "width": 800,
         "height": 600,
         "resizable": false,
