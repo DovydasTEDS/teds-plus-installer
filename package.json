@@ -11,7 +11,7 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.5",
     "@heroicons/vue": "^2.0.13",
-    "@tauri-apps/api": "^1.2.0",
+    "@tauri-apps/api": "^1.4.0",
     "pinia": "^2.0.28",
     "vue": "^3.2.45"
   },
