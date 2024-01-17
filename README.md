@@ -1,14 +1,18 @@
 # TEDS Plus Installer
   
 You can finally install TEDS Plus with the vanilla launcher automatically!
-Make sure to install the latest version of [Quilt Loader](https://quiltmc.org/en/install/client/) by running the Quilt Loader Installer and choosing the latest Quilt Loader version and the correct Minecraft Version. Then you can use TEDS Plus installer (which installs itself to your device for future versions), to install TEDS Plus. NOTE: For windows, download the .msi file!
+You can use TEDS Plus installer (which installs itself to your device for future versions), to install TEDS Plus. NOTE: For windows, download the .msi file!
 
 ## How to install:
-- Download the [Quilt Loader](https://quiltmc.org/en/install/client/) Installer
-- Run the installer, choose the selected Minecraft Version and the latest loader version
 - Download and install TEDS Plus Installer from the releases tab on the right
 - Run TEDS Plus installer and select the version to install
 - After the installation is complete, open Minecraft Launcher and select TEDS Plus 1.XX.X (Minecraft Version)
+
+## Development Documentation
+- Fork this and replace all instances of cdn.tedps.tk with your webserver
+- Host a site, using Cloudflare or Github Pages is recommended. DO NOT USE NETLIFY.
+- Host these files in the root of your website / http server: [modpacks.json](https://github.com/DovydasTEDS/files/blob/main/modpacks.json) and modpackid-version.mrpack (use [https://github.com/DovydasTEDS/files](https://github.com/DovydasTEDS/files) for reference)
+- Build using GitHub actions
   
   # Technical / readme from fork: 
 
